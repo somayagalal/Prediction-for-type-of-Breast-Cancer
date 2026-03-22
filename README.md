@@ -1,122 +1,83 @@
-# 🧬 Breast Cancer Type Prediction (Data Mining Project)
+# Breast Cancer Type Prediction
 
-## 📌 Project Overview
-This project focuses on building a data mining pipeline to analyze and predict whether a breast tumor is **benign (B)** or **malignant (M)** using a medical dataset.
+Data Mining project for analyzing breast cancer data and preparing a full pipeline to support classification of tumor diagnosis as:
+- B: Benign
+- M: Malignant
 
-The main objective of **Phase 1** is to explore and prepare the dataset through:
+## Project Overview
+This repository contains the Phase 1 workflow:
 - Data understanding
-- Data cleaning & preprocessing
-- Outlier detection
-- Data visualization
+- Data cleaning
+- Preprocessing
+- Outlier analysis
+- Visualization
+- Insights and findings
 
----
+The analysis is organized as sequential notebooks so the workflow is easy to follow and reproduce.
 
-## 📂 Project Structure
-breast-cancer-project/
-│
-├── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned datasets
-│
-├── notebooks/
-│ ├── 01_data_understanding.ipynb
-│ ├── 02_data_cleaning.ipynb
-│ ├── 03_preprocessing.ipynb
-│ ├── 04_outliers.ipynb
-│ ├── 05_visualization.ipynb
-│ └── 06_insights.ipynb
-│
-├── outputs/
-│ ├── plots/ # Generated visualizations
-│ └── tables/ # Tables and summaries
-│
-├── report/
-│ └── milestone1.docx # Final report
-│
-└── README.md
+## Repository Structure
+```text
+Prediction-for-type-of-Breast-Cancer/
+|-- data/
+|   |-- raw/
+|   |   `-- breast-cancer.csv
+|   `-- processed/
+|-- notebooks/
+|   |-- 01_data_understanding.ipynb
+|   |-- 02_data_cleaning.ipynb
+|   |-- 03_preprocessing.ipynb
+|   |-- 04_outliers.ipynb
+|   |-- 05_visualization.ipynb
+|   `-- 06_insights.ipynb
+|-- outputs/
+|   |-- plots/
+|   `-- tables/
+`-- README.md
+```
 
----
+## Tools and Libraries
+- Python
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
-## ⚙️ Technologies Used
-- Python 🐍
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+## Notebook Workflow
+Run the notebooks in this exact order:
+1. `01_data_understanding.ipynb`
+2. `02_data_cleaning.ipynb`
+3. `03_preprocessing.ipynb`
+4. `04_outliers.ipynb`
+5. `05_visualization.ipynb`
+6. `06_insights.ipynb`
 
----
-
-## 🧪 Phase 1 Tasks
-
-### 1. Data Understanding
-- Analyze dataset structure
-- Identify features and target variable
-- Generate summary statistics
-
-### 2. Data Cleaning
-- Handle missing values
-- Remove duplicates
-- Drop unnecessary columns (e.g., ID)
-
-### 3. Data Preprocessing
-- Encode categorical variables
-- Feature scaling (StandardScaler / MinMaxScaler)
-
-### 4. Outlier Detection
-- Detect outliers using boxplots and statistical methods (IQR / Z-score)
-- Decide whether to remove or keep outliers
-
-### 5. Data Visualization
-- Correlation heatmap
-- Histograms
-- Pairplots
-- Feature vs diagnosis analysis
-
-### 6. Insights
-- Identify important features
-- Discover patterns between benign and malignant cases
-
----
-
-## 👥 Team Members
-- Member 1 – Data Understanding & Documentation
-- Member 2 – Data Cleaning
-- Member 3 – Preprocessing
-- Member 4 – Outlier Detection
-- Member 5 – Visualization
-- Member 6 – Insights & Analysis
-
----
-
-## 🚀 How to Run
-
+## Setup and Run
 1. Clone the repository:
+```bash
 git clone https://github.com/somayagalal/Prediction-for-type-of-Breast-Cancer.git
+```
 
-2. Open the project in VS Code or Jupyter Notebook
+2. Open the project in VS Code or Jupyter.
 
-3. Run notebooks in order:
-01 → 02 → 03 → 04 → 05 → 06
+3. Install required packages in your Python environment.
 
----
+4. Run the notebooks in order from the previous section.
 
-## 📊 Expected Output
-- Cleaned dataset
-- Visualizations (plots & graphs)
-- Identified patterns and correlations
-- Well-documented report
+## Expected Outputs
+- Cleaned and prepared dataset versions in `data/processed/`
+- Charts and plots in `outputs/plots/`
+- Summary tables in `outputs/tables/`
+- Final insights from exploratory and preprocessing steps
 
----
+## Team Roles
+- Member 1: Data understanding and documentation
+- Member 2: Data cleaning
+- Member 3: Preprocessing
+- Member 4: Outlier detection
+- Member 5: Visualization
+- Member 6: Insights and analysis
 
-## 📅 Deadline
-Phase 1 Submission: **March 25–26, 2026**
-
----
-
-## ✨ Notes
-- Each team member is responsible for one notebook
-- Outputs should be saved in the `outputs/` folder
-- All steps must include explanations and visual evidence
-
----
+## Notes
+- Keep notebook outputs and generated artifacts organized in the `outputs/` folder.
+- Include short explanations in each notebook cell for reproducibility.
