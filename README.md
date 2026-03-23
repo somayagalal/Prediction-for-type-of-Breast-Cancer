@@ -22,16 +22,11 @@ Prediction-for-type-of-Breast-Cancer/
 |   |-- raw/
 |   |   `-- breast-cancer.csv
 |   `-- processed/
-|-- notebooks/
-|   |-- 01_data_understanding.ipynb
-|   |-- 02_data_cleaning.ipynb
-|   |-- 03_preprocessing.ipynb
-|   |-- 04_outliers.ipynb
-|   |-- 05_visualization.ipynb
-|   `-- 06_insights.ipynb
+|
 |-- outputs/
 |   |-- plots/
 |   `-- tables/
+|-- main.ipynb
 `-- README.md
 ```
 
@@ -44,13 +39,10 @@ Prediction-for-type-of-Breast-Cancer/
 - scikit-learn
 
 ## Notebook Workflow
-Run the notebooks in this exact order:
-1. `01_data_understanding.ipynb`
-2. `02_data_cleaning.ipynb`
-3. `03_preprocessing.ipynb`
-4. `04_outliers.ipynb`
-5. `05_visualization.ipynb`
-6. `06_insights.ipynb`
+steps:
+1. `data_understanding`
+2. ` Outlier detection , removal & visualization`
+3. ..
 
 ## Setup and Run
 1. Clone the repository:
@@ -70,13 +62,6 @@ git clone https://github.com/somayagalal/Prediction-for-type-of-Breast-Cancer.gi
 - Summary tables in `outputs/tables/`
 - Final insights from exploratory and preprocessing steps
 
-## Team Roles
-- Member 1: Data understanding and documentation
-- Member 2: Data cleaning
-- Member 3: Preprocessing
-- Member 4: Outlier detection
-- Member 5: Visualization
-- Member 6: Insights and analysis
 
 ## Notes
 - Keep notebook outputs and generated artifacts organized in the `outputs/` folder.
