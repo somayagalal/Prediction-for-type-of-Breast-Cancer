@@ -14,15 +14,8 @@ The project walks through the full data mining workflow: data understanding, pre
 - [Repository Structure](#repository-structure)
 - [Workflow](#workflow)
 - [Models Used](#models-used)
-- [Results Summary](#results-summary)
-- [Key Findings](#key-findings)
 - [Generated Visualizations](#generated-visualizations)
-- [Installation](#installation)
-- [How to Run](#how-to-run)
 - [Dependencies](#dependencies)
-- [Notes](#notes)
-- [Future Improvements](#future-improvements)
-
 ---
 
 ## Project Overview
